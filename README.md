@@ -1,29 +1,32 @@
-# Kontur Test Task
+# Тестовое задание для Контура
 
-## Description
-Test task for Kontur company.
+## Описание
+Приложение на C#, выполняющее обработку XML-данных с использованием XSLT.
 
-The application:
-- Applies XSLT transformation to XML data
-- Calculates total salary per employee
-- Calculates total payments by month
-- Displays results in WinForms GUI
-- Allows adding a new employee record
+Функциональность:
+- запуск XSLT-преобразования входных XML-файлов
+- формирование файла Employees.xml
+- подсчёт суммарных выплат по сотрудникам
+- подсчёт общей суммы выплат
+- подсчёт выплат по месяцам
+- отображение результатов в графическом интерфейсе (WinForms)
+- добавление нового сотрудника с пересчётом данных
 
-## Technologies
+## Технологии
 - C#
+- .NET
 - WinForms
 - XML / XSLT
-- .NET
 
-## How to run
-1. Open solution in Visual Studio
-2. Build the project
-3. Run `KonturTest.exe`
+## Запуск проекта
+1. Открыть решение в Visual Studio
+2. Собрать проект
+3. Запустить приложение
+4. Нажать кнопку «Рассчитать зарплату»
 
-## Input data
+## Входные данные
 - Data1.xml
 - Data2.xml
 
-## Author
-Anton
+## Автор
+Антон Жарков 
